@@ -2,7 +2,7 @@ package wish.list.kotlin
 
 import java.util.*
 
-object WishlistInitial {
+object Initial {
     var item_name: String = ""
     var item_cost: Double = 0.0
     var money_bank: Double = 0.0

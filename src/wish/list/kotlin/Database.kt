@@ -1,12 +1,10 @@
 package wish.list.kotlin
 
-import com.sun.xml.internal.fastinfoset.util.StringArray
-import wish.list.kotlin.WishlistMain.Companion.input
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.PrintWriter
 
-object WishlistDatabase {
+object Database {
 
     @Throws(FileNotFoundException::class)
     fun database() {

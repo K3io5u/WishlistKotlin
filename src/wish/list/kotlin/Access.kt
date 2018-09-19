@@ -1,11 +1,10 @@
 package wish.list.kotlin
 
-import wish.list.kotlin.WishlistMain.Companion.input
 import java.io.File
 import java.io.FileNotFoundException
 import java.util.*
 
-object WishlistAccess {
+object Access {
     var item = arrayOfNulls<String>(100)
     var cost = arrayOfNulls<Double>(100)
 

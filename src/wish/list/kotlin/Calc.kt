@@ -1,9 +1,8 @@
 package wish.list.kotlin
 
-import wish.list.kotlin.WishlistMain.Companion.input
 import kotlin.system.exitProcess
 
-object WishlistCalc {
+object Calc {
 
     fun calc() {
         val income: Double
@@ -21,9 +20,9 @@ object WishlistCalc {
         println("Hello! Welcome to Wishlist Calculator!")
         println()
 
-        itemName = WishlistInitial.item_name
-        moneyNeed = WishlistMain.money_need
-        moneyBank = WishlistInitial.money_bank
+        itemName = Initial.item_name
+        moneyNeed = money_need
+        moneyBank = Initial.money_bank
 
         println("You are saving up for $itemName, correct? (yes/no)")
         confirm = input.nextLine()
